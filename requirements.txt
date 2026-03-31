@@ -1,0 +1,11 @@
+mediapipe>=0.10.14
+opencv-python>=4.9.0
+moderngl>=5.10.0
+moderngl-window>=2.4.6
+numpy>=1.26.0
+pyproj>=3.6.0
+requests>=2.31.0
+shapely>=2.0.0
+mapbox-earcut>=1.0.0
+pillow>=10.0.0
+pyvista>=0.43.0

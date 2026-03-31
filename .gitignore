@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS specific
+*.log
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pyc
+.ipynb_checkpoints/
+*.ipynb
+
+# Note: Tracked data files (not ignored)
+# - data/uiuc.geojson
+# - data/uiuc_tiles.json
+# - data/uiuc_tiles.png
+# - hand_landmarker.task
+# These are essential for the project and should remain in git
