@@ -4,24 +4,24 @@ An interactive hand-tracked 3D urban visualization system that combines GeoJSON 
 
 ## Features
 
-✨ **Hand Gesture Control**
+ **Hand Gesture Control**
 - **Left hand**: Open/close to zoom (progressive zoom based on clench)
 - **Right hand**: Point to pan and move around the scene
 - **Grab gesture**: Pick up and move individual buildings
 
-📍 **Photorealistic Rendering**
+ **Photorealistic Rendering**
 - Satellite base map (2816×3072 resolution)
 - 3D realistic buildings from GeoJSON data
 - Procedural windows with day/night lighting
 - Dynamic atmospheric haze and distance fade
 
-🎯 **Interactive Features**
+ **Interactive Features**
 - Point at buildings to inspect metadata (height, dimensions, density stats)
 - Grab buildings with closed fist to relocate them
 - Real-time hand landmark visualization for debugging
 - Input status HUD showing gesture mode and hand count
 
-🌍 **City Support**
+ **City Support**
 - UIUC (University of Illinois) with 973 buildings
 - NYC ready (expandable to any GeoJSON source)
 - Automatic satellite tile loading
@@ -256,24 +256,3 @@ Renderer (ModernGL)
     ↓
 Display @ 60 FPS
 ```
-
-## Future Enhancements
-
-- [ ] Multi-hand independent control (both hands pointing)
-- [ ] Building measurement tool (tap to measure distance)
-- [ ] Time-of-day simulation with dynamic lighting
-- [ ] GeoJSON feature export from repositioned buildings
-- [ ] Voice commands integration
-- [ ] VR headset support
-
-## License
-
-[Add your license here]
-
-## Contributors
-
-Created by ShanmukhUpad
-
-## Support
-
-For issues or feature requests, open an issue on GitHub.
